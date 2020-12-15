@@ -22,7 +22,7 @@ class m5_ucp_modules extends migration
 	*/
 	static public function depends_on()
 	{
-		return array('\david63\mailtopost\migrations\v210\m1_initial_schema');
+		return array('\david63\mailtopost\migrations\v210\m4_acp_modules');
 	}
 
 	public function effectively_installed()
